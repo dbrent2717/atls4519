@@ -1,0 +1,74 @@
+/* CSS */
+
+
+textarea:focus, select:focus, select:active, input:focus, input:active, input:focus +
+label, input:active + label, label[for]:focus, label[for]:active {
+color: #BF1722 !important;
+background-color: #fff2a8 !important;
+outline:solid #03C medium;
+}
+
+.required::before {
+	content: "*";
+	color: red;
+	margin-right: 5px;
+  }
+li {
+	list-style: none; /* Remove the bullet point style */
+}
+label.insert {
+    display: inline-block;
+    width: 250px; /* set a fixed width for the label column */
+	list-style: none !important; /* Remove bullet points */
+  }
+  input.speaker {
+    display: inline-block;
+    width: 400px; /* set a fixed width for the input column */
+	margin-bottom: 10px; /* Add some margin to the bottom of each input */
+  }
+  .spkrques {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  }
+  .spkrques label {
+	flex: 1;
+  }
+  .spkrques .oneques {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  }
+  .oneques {
+	display: flex;
+	justify-content: flex-start;
+  }
+  .spkrques input[type="radio"] {
+	margin-right: 10px;
+  }
+  .suggest_form {
+	margin-top: 10px;
+  }
+  
+body {
+	margin: 0 auto;
+	max-width: 800px;
+  }
+
+#formstart {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:200%;
+	font-weight:bold;
+}
+
+.outline3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:150%;
+	font-weight:bold;
+}
+
+.outline4 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:120%;
+	font-weight:bold;
+}
